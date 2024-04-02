@@ -10,6 +10,6 @@ export default createRoute((c) => {
     <main class="mx-auto mt-10 max-w-xl space-y-10">
       <NoteEditor note={note} />
     </main>,
-    { title: "Note" }
+    { title: "Note Create" }
   );
 });

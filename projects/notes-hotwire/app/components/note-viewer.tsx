@@ -20,6 +20,13 @@ export const NoteViewer: FC<{ note: Note }> = async ({ note }) => {
           </button>
         </a>
       </div>
+      <div class="my-4">
+        <a href={`/`}>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            New
+          </button>
+        </a>
+      </div>
     </div>
   );
 };

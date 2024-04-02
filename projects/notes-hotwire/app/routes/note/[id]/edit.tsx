@@ -7,7 +7,9 @@ export default createRoute((c) => {
   // const note = userNotes.findById(c.req.param('id'));
   const note = {
     id: 1,
-    content: `# Title <img src="a" onerror="alert(1)">`,
+    content: `# Old Note
+## Hello
+`,
   };
   return c.render(
     <main class="mx-auto mt-10 max-w-xl space-y-10">

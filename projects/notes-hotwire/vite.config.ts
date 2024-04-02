@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     return {
       build: {
         rollupOptions: {
-          input: ['/app/styles.css'],
+          input: ['/app/styles/tailwind.css'],
           output: {
             assetFileNames: 'static/assets/[name]-[hash].[ext]',
           },
