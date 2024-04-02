@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
     }
   } else {
     return {
-      plugins: [honox({islands: true, islandComponents: {isIsland: () => true}}), pages()],
+      plugins: [honox(), pages()],
       build: {
         assetsDir: "static/assets",
         ssrEmitAssets: true,
